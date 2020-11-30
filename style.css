@@ -1,0 +1,51 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.row{
+  text-align:center;
+}
+
+img{
+  width:30vw;
+}
+
+.box{
+  display:inline-block;
+  position:relative;
+  margin:1vw;
+}
+
+.sale{
+  position:absolute;
+  right: 0%;
+  background-color: green;
+}
+
+ .row .box:nth-child(even) .sale{
+  background-color: red;
+}
+
+.hearth{
+  position:absolute;
+  bottom:5%;
+  width:100%;
+  text-align: center;
+  color:red;
+  display:none;
+}
+
+.box:hover .hearth{
+  display:block;
+}
+
+.headset > img{
+  width: 28vw;
+  margin: 1vw;
+}
+
+.headset{
+  background-color: #f2f2f2;
+}
